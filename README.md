@@ -1,45 +1,78 @@
-# 🚀 Python Mini Projects Collection
+# 🚀 Python Mini Projects
 
-Welcome to my repository of beginner-friendly yet powerful Python CLI applications! This collection showcases my core programming logic, problem-solving skills, and journey into Python development—built entirely with discipline, logic, and dedication.
+A curated collection of beginner-friendly Python projects built while learning programming fundamentals and problem-solving skills.
 
----
-
-## 🛠️ Tech Stack & Badges
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+This repository showcases my journey of learning Python through hands-on projects, covering topics such as variables, conditional statements, loops, functions, lists, dictionaries, user input, and basic algorithms.
 
 ---
 
-## 📂 Project Showcase
+## 📂 Projects Included
 
-Inside this repository, you will find clean, modular, and optimized Python scripts:
+### 🎯 Number Guessing Game
+A simple game where the user tries to guess a secret number.
 
-| Project Name | Description | Key Concept Used | Status |
-| :--- | :--- | :--- | :--- |
-| **🎮 Number Guessing Game** | A logic-based game where users guess a randomly generated number. | `random` module, loops | Completed |
-| **📝 Word Quiz Game** | An interactive vocabulary quiz to test word-matching speed and knowledge. | Strings, Control Flows | Completed |
-| **🔢 FiveOps-Calc** | A smart calculator that challenges users to solve exactly 5 operations with zero-division protection. | `for` loops, Exception handling | Completed |
-| **📚 Subject List Manager** | A smart tool to track, sort, and search daily educational subjects dynamically. | Lists, `.sort()`, `.index()` | Completed |
-| ** And many small projects ** | 
+### 🧩 Word Quiz Game
+A vocabulary-based quiz game with hints, scoring, and multiple attempts.
+
+### 🧮 Calculator
+A basic calculator capable of performing mathematical operations.
+
+### 📚 Study Subject Manager
+Manage, sort, and search study subjects using Python lists.
+
+### 🛍️ Discount Calculator
+A simple billing and discount calculation system.
+
+### 🔬 Practice Scripts
+Various Python practice programs created while learning core concepts.
 
 ---
 
-## 🚀 Featured Project: FiveOps Calculator
+## 🛠️ Skills Demonstrated
 
-The **FiveOps-Calc** is not just a regular calculator. It features a modern approach to iterative operations:
-* **Strict Loop Control:** Automatically terminates and caps out exactly after 5 successful mathematical operations.
-* **Smart Zero-Division Protection:** Intercepts arithmetic crashes gracefully when a user tries to divide by zero.
-* **Clean Terminal UI:** Displays operational steps with real-time attempt tracking (`Attempt X of 5`).
+- Variables and Data Types
+- User Input Handling
+- Conditional Statements (if-else)
+- Loops (for, while)
+- Functions
+- Lists and Dictionaries
+- Searching and Sorting
+- Basic Problem Solving
+- Python Programming Fundamentals
 
 ---
 
-## ⚙️ How to Run Locally
+## 💻 Technologies Used
 
-To try any of these scripts on your local machine or terminal environment, follow these steps:
+- Python 3
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Tahmid-Amin-Jilani/Python-Mini-Projects.git](https://github.com/Tahmid-Amin-Jilani/Python-Mini-Projects.git)
+---
+
+## 🎯 Purpose
+
+The purpose of this repository is to document my Python learning journey and improve my programming, logic-building, and problem-solving skills through practical projects.
+
+---
+
+## 📈 Future Improvements
+
+- More Mini Projects
+- Better Code Structure
+- Object-Oriented Programming (OOP)
+- File Handling
+- GUI Applications
+- API-Based Projects
+
+---
+
+## 👨‍💻 Author
+
+**Tahmid Amin**
+
+
+GitHub: github.com/Tahmid-d
+
+---
+
+⭐ If you like this repository, feel free to explore the projects and follow my learning journey.
    
