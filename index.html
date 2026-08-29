@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<html lang="eng"> 
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width"> 
+  <title>hft-risk-engine.https.com</title> 
+<style> 
+  body { 
+     background-color:black;
+     color:lab(0% 0 0);
+     font-family:Arial, Helvetica, sans-serif; 
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     height:100vh;
+     margin:1;
+    } 
+  .card { 
+    background-color: #ce55c0c2; 
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #51cb24c1;
+    box-shadow: 0 8px 24px rgba(0,0,0,0,5);
+    text-align: center; 
+    font-weight: bold;
+  } 
+  h1 {
+    color:#60d634;
+    margin-bottom:24px;
+  } 
+  .metrics {
+    margin-bottom: 18px;
+    line-height: 1.8;
+    font-size: 18px; 
+    } 
+  .highlight {
+    font-weight: bold;
+  } 
+  .BTN {
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+  } 
+  button {
+    background-color:#dad50a;
+    color:hwb(224 8% 22%);
+    border:none;
+    padding:9px 18px;
+    font-size:17px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  } 
+</style> 
+</head>  
+
+<body> 
+  <div class="card"> 
+    <h1>🚀Smart HFT Engine</h1> 
+    <div class="metrics"> 
+    <p>Account Status: <span id="status" class="highlight">Active</span></p> 
+    <p>Current Margin Health: <span id="margin" class="highlight">€8000</span></p> 
+    </div> 
+    <div class="BTN"> 
+    <button id="trade-btn">Execute Trader</button>      
+    <button id="process">Continue</button> 
+    </div> 
+  </div> 
+<script> 
+  // 1.Getting the HTML tags to use browser memory:- 
+  let statusElement=document.getElementById("status");
+  let marginElement=document.getElementById("margin");
+  let tradeBtn=document.getElementById('trade-btn');
+  // 2.Guess the initial margin health:- 
+  let currentmargin=8000; 
+  // 3.After press the btton,UI logic will be show:-
+  tradeBtn.addEventListener('click',function() {
+    if (currentmargin>0) {
+      // In every click, margin health decrease €-1000:-
+      currentmargin -= 1000; 
+      marginElement.innerText=`€${currentmargin}`;
+    } 
+    // If the Current Margin is 0 and less than 0, will show liquidatuon txt:-
+    if (currentmargin<=0) {
+      statusElement.innerText="Liquidated (Force Closed)"; // Liquidated txt show 
+      statusElement.style.color="#203cce";
+      tradeBtn.backgroundColor="#991e1ed3";
+      tradeBtn.innerText="Trading Locked";
+      tradeBtn.disabled=true; // button lock
+    } 
+  });                           
+</script> 
+</body> 
+</html>  
